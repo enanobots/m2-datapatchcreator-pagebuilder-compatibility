@@ -1,0 +1,30 @@
+{
+    "name": "enanobots/m2-datapatchcreator-pagebuilder",
+    "description": "Magento 2 Data Patch creator - Page Builder Plugin",
+    "homepage": "https://github.com/enanobots/m2-datapatchcreator-pagebuilder",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "nanobotsecommerce@gmail.com",
+            "name": "eCommerce Nanobots"
+        },
+        {
+            "name": "Jakub Winkler",
+            "email": "jwinkler@qsolutionsstudio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "enanobots/m2-datapatchcreator": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Nanobots\\DataPatchCreatorPageBuilder\\": "src/"
+        }
+    }
+}
